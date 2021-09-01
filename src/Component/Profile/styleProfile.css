@@ -1,0 +1,21 @@
+.photo
+{
+    width:'200px';
+}
+.photo img
+{
+    width:100%;
+    object-fit: cover;
+}
+
+.name,
+.address,
+.photo
+{
+    position:"relative";
+    z-index:2;
+    color:#000;
+    transition: all 0.5s;
+}
+
+
